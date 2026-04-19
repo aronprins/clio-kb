@@ -5,6 +5,7 @@ repo_root="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 tmp_root="$(mktemp -d "${TMPDIR:-/tmp}/clio-kb-publish.XXXXXX")"
 publish_clone="$tmp_root/publish"
 site_dir="$tmp_root/site"
+cname_file="$tmp_root/CNAME"
 origin_url="$(git -C "$repo_root" remote get-url origin)"
 
 cleanup() {
@@ -23,6 +24,9 @@ cd "$publish_clone"
 if git ls-remote --exit-code --heads origin gh-pages >/dev/null 2>&1; then
   git checkout gh-pages >/dev/null 2>&1
   git pull --ff-only origin gh-pages >/dev/null 2>&1
+  if [[ -f CNAME ]]; then
+    cp CNAME "$cname_file"
+  fi
 else
   git checkout --orphan gh-pages >/dev/null 2>&1
   find . -mindepth 1 -maxdepth 1 ! -name .git -exec rm -rf {} +
@@ -30,6 +34,9 @@ fi
 
 find . -mindepth 1 -maxdepth 1 ! -name .git -exec rm -rf {} +
 cp -R "$site_dir"/. .
+if [[ -f "$cname_file" && ! -f CNAME ]]; then
+  cp "$cname_file" CNAME
+fi
 
 git add -A
 
