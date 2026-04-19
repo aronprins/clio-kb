@@ -4,6 +4,8 @@
 
 Clio KB is a lightweight static knowledge base for Markdown docs: keep your content in `docs/`, define navigation in `site/content.json`, run one build command, and publish the result as plain static files.
 
+<img width="2688" height="2646" alt="screencapture-aronprins-github-io-clio-kb-2026-04-19-12_24_14" src="https://github.com/user-attachments/assets/72a2998d-077a-49bf-9774-fa0c45ee927a" />
+
 ## How it works
 
 Clio KB separates content from presentation:
