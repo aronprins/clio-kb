@@ -1,0 +1,12 @@
+{
+  "name": "clio-kb",
+  "version": "0.1.0",
+  "private": false,
+  "type": "module",
+  "scripts": {
+    "docs:build": "node site/build-release.mjs --base-path /clio-kb/ --out-dir .site",
+    "docs:build:auto": "node site/build-release.mjs --base-path auto --out-dir .site",
+    "docs:serve": "python3 -m http.server 4321 --directory .site",
+    "docs:publish": "./scripts/publish-gh-pages.sh"
+  }
+}

@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Clio KB Repository
+    url: https://github.com/aronprins/clio-kb
+    about: Browse the project, open discussions, and track releases.
