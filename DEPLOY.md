@@ -1,12 +1,12 @@
 # Clio KB Release Deployment
 
-This bundle was built for the public base path `/clio-kb/`.
+This bundle was built for the public base path `/`.
 
 ## Routing model
 
-- The app uses hash routing, so deep links look like `/clio-kb/#/installation`
+- The app uses hash routing, so deep links look like `/#/installation`
 - No server-side rewrite rules are required for route handling
-- Serve the bundle root at `/clio-kb/`
+- Serve the bundle root at `/`
 - Keep all copied files together so requests for `content.json`, markdown files, images, fonts, and JS resolve normally
 
 If `content.json` or linked markdown files are missing from the uploaded bundle, the docs app will fail to load content.
