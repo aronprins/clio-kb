@@ -14,7 +14,7 @@ trap cleanup EXIT
 
 cd "$repo_root"
 
-node site/build-release.mjs --base-path /clio-kb/ --out-dir "$site_dir"
+node site/build-release.mjs --base-path / --out-dir "$site_dir"
 touch "$site_dir/.nojekyll"
 
 git clone "$origin_url" "$publish_clone" >/dev/null 2>&1
