@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540" fill="none">
+  <rect width="960" height="540" rx="24" fill="#FAFAFA"/>
+  <rect x="60" y="72" width="840" height="396" rx="20" fill="#FFFFFF" stroke="#E4E4E7" stroke-width="2"/>
+  <rect x="104" y="118" width="176" height="56" rx="12" fill="#F4F4F5" stroke="#D4D4D8"/>
+  <rect x="392" y="118" width="176" height="56" rx="12" fill="#F4F4F5" stroke="#D4D4D8"/>
+  <rect x="680" y="118" width="176" height="56" rx="12" fill="#F4F4F5" stroke="#D4D4D8"/>
+  <rect x="184" y="268" width="176" height="56" rx="12" fill="#18181B"/>
+  <rect x="600" y="268" width="176" height="56" rx="12" fill="#18181B"/>
+  <path d="M280 146H392" stroke="#A1A1AA" stroke-width="3" stroke-linecap="round"/>
+  <path d="M568 146H680" stroke="#A1A1AA" stroke-width="3" stroke-linecap="round"/>
+  <path d="M480 174V232" stroke="#A1A1AA" stroke-width="3" stroke-linecap="round"/>
+  <path d="M272 296H600" stroke="#71717A" stroke-width="3" stroke-linecap="round" stroke-dasharray="8 10"/>
+  <text x="192" y="152" fill="#18181B" font-family="Arial, sans-serif" font-size="22" font-weight="600">Markdown</text>
+  <text x="438" y="152" fill="#18181B" font-family="Arial, sans-serif" font-size="22" font-weight="600">Transforms</text>
+  <text x="733" y="152" fill="#18181B" font-family="Arial, sans-serif" font-size="22" font-weight="600">Rendered UI</text>
+  <text x="228" y="302" fill="#FAFAFA" font-family="Arial, sans-serif" font-size="20" font-weight="600">Tabs</text>
+  <text x="639" y="302" fill="#FAFAFA" font-family="Arial, sans-serif" font-size="20" font-weight="600">Callouts</text>
+</svg>

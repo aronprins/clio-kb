@@ -1,0 +1,9 @@
+# Clio KB static docs SPA
+# Real files must 404 if missing. Only extensionless routes should fall back to index.html.
+location ~ ^/clio-kb/.*\.[A-Za-z0-9]+$ {
+    try_files $uri =404;
+}
+
+location /clio-kb/ {
+    try_files $uri $uri/ /clio-kb/index.html;
+}

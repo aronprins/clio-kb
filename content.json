@@ -1,0 +1,60 @@
+{
+  "sections": [
+    {
+      "title": "Getting Started",
+      "icon": "rocket",
+      "desc": "Understand the model, build the site locally, and start replacing the starter docs.",
+      "pages": [
+        {
+          "title": "Overview",
+          "file": "getting-started/overview.md"
+        },
+        {
+          "title": "Quickstart",
+          "file": "getting-started/quickstart.md"
+        }
+      ]
+    },
+    {
+      "title": "Customization",
+      "icon": "palette",
+      "desc": "Shape navigation, author pages, and adapt the shell to your own docs set.",
+      "pages": [
+        {
+          "title": "Navigation",
+          "file": "customization/navigation.md"
+        },
+        {
+          "title": "Authoring Pages",
+          "file": "customization/authoring.md"
+        }
+      ]
+    },
+    {
+      "title": "Reference",
+      "icon": "book-open",
+      "desc": "Repository layout and the moving parts behind the static bundle.",
+      "pages": [
+        {
+          "title": "Project Structure",
+          "file": "reference/project-structure.md"
+        },
+        {
+          "title": "Formatting Reference",
+          "file": "reference/formatting-reference.md"
+        }
+      ]
+    },
+    {
+      "title": "Deployment",
+      "icon": "cloud",
+      "desc": "Publish the generated bundle to GitHub Pages or another static host.",
+      "pages": [
+        {
+          "title": "GitHub Pages",
+          "file": "deployment/github-pages.md"
+        }
+      ]
+    }
+  ]
+}
