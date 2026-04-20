@@ -1049,7 +1049,15 @@
     }
     @media (max-width: 560px) {
       .card-grid { grid-template-columns: 1fr; }
-      #logo-sub, #logo-name { display: none; }
+      #logo {
+        min-width: max-content;
+        flex-shrink: 0;
+      }
+      #logo-name {
+        display: inline;
+        font-size: 13px;
+      }
+      #logo-sub { display: none; }
       #landing { padding: 48px 24px 80px; }
       #site-foot { padding: 24px 24px 48px; gap: 24px; }
       #content { padding: 28px 0 64px; }
